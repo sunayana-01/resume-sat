@@ -9,7 +9,6 @@ Step 2: Creating a HTML Structure
 	<head>
 		<link href="styles.css" rel="stylesheet">
 		<title>Your Name resume</title>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 	</head>
 
 	<body>
@@ -70,6 +69,27 @@ Work Experience
 		<li>Cool accomplishment</li>
 		<li>Cool accomplishment</li>
 </ul>
+```
+
+Your skills
+```html
+    <p>HTML, CSS, GitHub, VS Code...</p>
+```
+
+Your education
+```html
+<h3>YOUR MAJOR</h3>
+	<p>
+		Your university or school
+	</p>
+	<p>
+		2018-2022
+	</p>
+```
+
+About You
+```html
+<p>A brief paragraph about you and what kind of job/company you are looking to work for.</p>
 ```
 
 Step 4: Adding CSS
