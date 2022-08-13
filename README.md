@@ -3,51 +3,53 @@
 Step 1: Create HTML file with CodeSwing
 
 Step 2: Creating a HTML Structure
+
 ```html
 <html>
 	<head>
-		<link href="style.css" rel="stylesheet">
+		<link href="styles.css" rel="stylesheet">
 		<title>Your Name resume</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 	</head>
 
 	<body>
-		<header id="header">
-			<!-- resume header with your name and title -->
-			<h1><b>YOUR</b> NAME</h1>
-			<hr>
-			YOUR TITLE (EX: SOFTWARE ENGINEERING STUDENT)
-			<hr>
-		</header>
-		<main>
-			<div id="mainLeft">
+        	<div class="container">
+			<header id="header">
+			    <!-- resume header with your name and title -->
+			    <h1><b>YOUR</b>NAME</h1>
+			    <hr>
+			        YOUR TITLE (EX: SOFTWARE ENGINEERING STUDENT)
+			    <hr>
+		    	</header>
+		    	<main>
+			    <article id="mainLeft">
 				<section>
 					<h2>CONTACT</h2>
 					<!-- contact info including social media -->
-				</section>
+                    		</section>
 				<section>
 					<h2>SKILLS</h2>
-					<!-- your skills -->
-				</section>
+					    <!-- your skills -->
+                    		</section>
 				<section>
 					<h2>EDUCATION</h2>
 					<!-- your education -->
-				</section>            
-			</div>
-			<div id="mainRight">
+                    		</section>            
+			    </article>
+			    <article id="mainRight">
 				<section>
 					<h2>ABOUT</h2>
 					<!-- about you -->
-				</section>
-				<section>
+                        	<section>
 					<h2>WORK EXPERIENCE</h2>
 					<!-- your work experience -->
-				</section>
-			</div>
-		</main>
+                    		</section>
+			    </article>
+		    	</main>
+        	</div>
 	</body>
 </html>
 ```
-
 Step 3: Adding Content to HTML Page
 Social Links
 ```html
@@ -78,6 +80,7 @@ body {
     font-size: 12px;
     max-width: 960px;
     margin: auto;
+    backgound-color: black;
 }
 ```
 sizing
@@ -141,6 +144,15 @@ selecting elements by id
 ```css
 #mainLeft {
     border-right: 1px solid lightgray;
+    background-color: rgb(28,28,35);
+    color: white;
+}
+```
+
+```css
+.container{
+	background-color: white;
+	margin: 10% 10% 10% 10%
 }
 ```
 
